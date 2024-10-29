@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./profile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="hello">Hello</h1>
+        <button class="logout_button">Logout</button>
+    </header>
+
+    <main>
+        <article class="profile_and_ratio">
+            <div class="profile_container card">
+                <div class="profile">
+                    <div class="profile_info">
+                        <div id="profile_username">Username</div>
+                        <div id="profile_email">Email</div>
+                        <div id="profile_firstname">First Name</div>
+                        <div id="profile_lastname">Last Name</div>
+                        <div id="profile_address">Address</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ratio_container card">
+                <div class="ratio_title">Audits ratio</div>
+                <div id="ratio_infos">
+                    <div id="ratio_up">
+                        <div id="total_up" style="color: black;"></div>
+                        <div id="svg_container_up"></div>
+                    </div>
+                    <div class="ratio_down">
+                        <div id="total_down" style="color:rgb(131, 14, 14);"></div>
+                        <div id="svg_container_down"></div>
+                    </div>
+                    <div id="ratio_value" style="color: rgb(83, 83, 3)"></div>
+                </div>
+            </div>
+
+        </article>
+        <article class="graphs">
+            <div class="xp card">
+
+                <div class="xp_curve_container">
+                    <div id="svg_xp_curve"></div>
+                </div>
+
+
+            </div>
+            <div class="skill card">
+
+                <div class="skill_container">
+                    <div id="technical_skills"></div>
+                    <div id="technologies"></div>
+                </div>
+
+            </div>
+    </main>
+</body>
+<script src="./home.js"></script>
+
+</html>
